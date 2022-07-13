@@ -1,0 +1,84 @@
+ 
+
+.navvy{
+    background-color: #a51111;
+}
+
+.navvy-container{
+    display: flex;
+    padding: 6px ;
+    background-color: #a51111;
+    position: relative; 
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 70px ;
+    width: 70px;
+    background-image: url(../fingers1.png);
+    background-size: contain;
+    background-color: black;
+}
+
+.nav-list{ 
+    width: 500px;
+    justify-self: center; 
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #fff;
+    top: 0;
+    max-height: 30px;
+    bottom: 0;
+}
+
+.nav-list a{
+    color: #fff ;
+    text-align: center;
+    position: relative;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-list a:hover hr{
+    width: 80%;
+    transition: 0.5s;
+}
+
+
+.nav-side-link{   
+    display: flex; 
+    top: 0;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    right: 20px;
+    max-height: 40px;
+    justify-content: space-between;
+    width: 150px;
+}
+
+
+
+.nav-list hr{
+    display: inline-block;
+    width: 0%;
+    height: 1px !important;  
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 0; 
+    background-color: #fff;
+}
+
+.nav-list a{
+    display: inline-block;
+}
